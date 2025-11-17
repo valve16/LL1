@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "PascalLexer": {
+      "commandName": "Project",
+      "commandLineArgs": "Test.txt"
+    }
+  }
+}

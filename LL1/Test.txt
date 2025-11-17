@@ -1,0 +1,22 @@
+Program example;
+var
+  x, y: inTeger;
+begin
+  // Initialize x :+
+  x := 110.1e+89;
+  {This is a 
+block comment}
+
+  while x <= 123
+  do
+    begin
+      x := x + 1;
+      y := x * 2
+    end;
+
+  if x <> 0
+  then
+    x := 42 - 10
+  else
+    x := 22 + 10
+end.

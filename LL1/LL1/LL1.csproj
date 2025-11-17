@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ConverterToCorrectGrammar\ConverterToCorrectGrammar.csproj" />
+    <ProjectReference Include="..\GrammerToSLR\GrammerToSLR.csproj" />
+    <ProjectReference Include="..\GrammerToTable\GrammerToTable.csproj" />
+    <ProjectReference Include="..\Interfaces\Interfaces.csproj" />
+    <ProjectReference Include="..\Model\Model.csproj" />
+    <ProjectReference Include="..\PascalLexer\PascalLexer.csproj" />
+    <ProjectReference Include="..\SearcherGuidingSet\SearcherGuidingSet.csproj" />
+    <ProjectReference Include="..\SLRHandler\SLRHandler.csproj" />
+    <ProjectReference Include="..\TableHandler\TableHandler.csproj" />
+  </ItemGroup>
+
+</Project>
